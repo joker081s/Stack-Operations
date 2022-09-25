@@ -44,7 +44,7 @@ public class Main {
     public static int push(List<Integer> arr, int top, int height) {
         if (top >= height - 1) {
             System.out.println("Error 01 :\n\tStack Overflow Exception\n\tStack is full!! :(");
-            return 4;
+            return (height - 1);
         }
         System.out.print("PUSH Operation : \n\tEnter the value to push into stack : ");
         int val = sc.nextInt();
